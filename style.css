@@ -1,0 +1,87 @@
+body{
+    margin: 0; padding: 0;
+    text-align: center;
+    background-color: lightcyan;
+    font-size: 20px;
+    background-image: url(./IMG/Olympic_rings.png);
+    background-size: 45%;
+    background-position: center;
+}
+
+.header{
+    background-color:rgba(243, 220, 178, 0.7);
+    text-align:left;
+    list-style-type:unset;
+    font-size: 18px;
+    padding: 30px 30px 30px 85px;
+    background-image: url(./IMG/logo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: 15px;
+}
+
+form{
+    line-height: 35px;
+}
+
+a{
+    text-decoration:none
+}
+
+#top:hover{
+    background-color:rgba(192, 192, 192, 0.5);
+    display:table;
+}
+
+#border{
+    margin: -55px 375px 13px 380px;
+    padding: 15px 0px 20px 0px;
+}
+
+#info{
+    font-weight: bold;
+}
+
+
+#item6{
+    margin-left: 90px; ;
+}
+
+table,th,td{
+    border: 3px ridge rgb(219, 219, 219);
+}
+
+.sport{
+    margin:auto;
+}
+
+table{
+    height: 450px;
+    width: 700px;
+}
+
+.s{
+    width: 100px;
+    height: 100px;
+    padding: 15px 25px 20px 25px;
+}
+
+td:hover{
+    background-color:rgb(255, 182, 140, 0.5);
+}
+
+#mascot{
+    background-image: url(./IMG/mascot.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 140px;
+    position: fixed;
+    background-size: 90%;
+    right: 5px;
+    bottom: 15px;
+    background-position-y: bottom;                 
+}
+#mascot:hover{
+    background-color: rgba(136, 136, 136, 0.2);
+    display:block;
+}
